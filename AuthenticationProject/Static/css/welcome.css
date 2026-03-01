@@ -1,0 +1,23 @@
+ 
+        body {
+           background-color: #4dee75;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+           
+        }
+        h1, h2, h3 {
+            margin: 0.5rem 0;
+        }
+        a {
+            color: #1232c2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+   

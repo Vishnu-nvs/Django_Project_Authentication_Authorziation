@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Authentication Project</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <p>This is your Authentication & Authorization project. Get started by creating a new account or logging in.</p>
+        <div class="button-group">
+            <a href="{% url 'register' %}" class="btn btn-primary">Register</a>
+            <a href="#" class="btn btn-secondary">Login</a>
+        </div>
+    </div>
+</body>
+</html>
